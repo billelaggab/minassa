@@ -1,0 +1,17 @@
+fastapi==0.110.1
+uvicorn[standard]==0.29.0
+sqlalchemy[asyncio]==2.0.29
+asyncpg==0.29.0
+pydantic==2.6.4
+pydantic-settings==2.2.1
+python-multipart==0.0.9
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+meilisearch==0.30.0
+jinja2==3.1.4
+weasyprint==62.3
+pillow==10.3.0
+bleach==6.1.0
+markdown==3.6
+python-magic==0.4.27
+aiofiles==23.2.1

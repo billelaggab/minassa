@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Tajawal';
+  src: url('/fonts/Tajawal-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Tajawal';
+  src: url('/fonts/Tajawal-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { font-family: 'Tajawal', system-ui, sans-serif; }
+
+/* طباعة نظيفة لصفحة الدوسية */
+@media print {
+  .no-print { display: none !important; }
+  table, .note-card { break-inside: avoid; }
+}
